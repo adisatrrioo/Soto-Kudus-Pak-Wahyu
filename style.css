@@ -1,0 +1,377 @@
+/* Navbar */
+.navbar {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.navbar :hover {
+  color: rgb(236, 171, 171);
+}
+.navbar.scrolling-active {
+  background-color: #000000cb;
+  padding: 8px 0 8px 0;
+}
+
+.navbar i {
+  color: rgb(255, 251, 251);
+}
+.navbar .logo img {
+  width: fit-content;
+  height: 60px;
+  display: flex;
+}
+.white-arrow {
+  color: white;
+}
+
+/* Navbar */
+
+/* Header */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/icon/bg1.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: change 10s infinite ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn-red {
+  background-color: red;
+  color: white; /* Text color */
+}
+
+@keyframes change {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(assets/icon/bg1.jpeg);
+  }
+  50% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(assets/icon/bg2.png);
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(assets/icon/bg3.jpeg);
+  }
+}
+
+.header-title {
+  color: white;
+  --animate-delay: 1.7s;
+  line-height: 1.5;
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add margin to separate from text */
+}
+
+.header-text {
+  color: white;
+  --animate-delay: 1.7s;
+  font-size: 1.25rem; /* Adjust font size as needed */
+  margin-bottom: 40px; /* Add margin to separate from buttons */
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; /* Add margin to separate buttons from text */
+}
+
+.header-buttons a {
+  margin-bottom: 10px; /* Add margin between buttons */
+}
+
+/* Adjust the margin-bottom values as needed to control spacing */
+
+/* .header a {
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: #0a6ebd;
+  background-color: red;
+}
+
+.header a:hover {
+  color: white;
+  background-color: #0a6ebd;
+} */
+
+/* Header */
+
+/* menu */
+
+.menu {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* promotion */
+.menu {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* testimonial */
+.testimonial {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.testimonial h1 {
+  font-size: 36px;
+  color: #333333;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Style for the Swiper */
+.swiper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Style for the swiper-slide */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Gallery Restoran*/
+
+.about {
+  padding-top: 40px;
+}
+
+.about h5,
+.about p {
+  text-align: left;
+}
+
+.about .team {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+/* About Us */
+.about {
+  padding-top: 40px;
+}
+
+.about h5,
+.about p {
+  text-align: left;
+}
+
+.about .team {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrapper .btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* About Us */
+
+/* Kenapa Soto Kudus Pak Wahyu */
+/* Style for card container */
+.Kenapa-soto-kudus-pak-wahyu {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 10px 10px; /* Add padding to the top and bottom */
+}
+
+/* Style for card */
+.card {
+  width: 18rem;
+  margin-bottom: 20px; /* Add margin at the bottom to separate cards */
+  border: none; /* Remove card border */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+/* Style for card images */
+.card-img-top {
+  max-width: 100%;
+  height: auto; /* Maintain image aspect ratio */
+}
+
+/* Style for card text */
+.card-text {
+  text-align: left; /* Align text to the left */
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #333; /* Set text color */
+}
+
+/* Style for card titles */
+.card-title {
+  font-size: 1.25rem; /* Adjust title font size as needed */
+  font-weight: bold; /* Make titles bold */
+  margin-bottom: 10px; /* Add margin at the bottom of titles */
+}
+
+/* Style for card container with padding */
+.container.my-5 {
+  padding: 2rem; /* Add padding to the container */
+}
+
+/* Hover effect */
+.card:hover {
+  transform: scale(1.05); /* Scale the card on hover */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+/* Kenapa Soto Kudus Pak Wahyu */
+
+/* Yellow Section */
+
+.yellow-section {
+  background-color: yellow;
+  padding: 40px 0; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.yellow-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.yellow-section p {
+  font-size: 18px;
+  color: #333; /* You can adjust the text color */
+}
+
+.yellow-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Yellow Section */
+
+/* Need More Info */
+
+.contact {
+  padding: 80px 0 80px 0;
+  border-radius: 40px;
+  display: flex;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.contact a {
+  width: 200px;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* To horizontally center the icons */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.social-icon {
+  font-size: 36px;
+  margin: 0 10px; /* Adjust the horizontal spacing between icons */
+  color: #000; /* Default color of icons */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+/* Change icon color on hover */
+.social-icon:hover {
+  color: red; /* Change the color to red on hover */
+}
+
+/* Need More Info */
+
+/* Footer */
+.footer {
+  padding-top: 40px;
+  background: #000;
+  color: #cacaca;
+}
+
+.footer i img {
+  width: fit-content;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.footer .col a {
+  color: #ffffff9a;
+}
+
+.footer .col a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 475px) {
+  .footer i img {
+    width: fit-content;
+    height: 75px;
+  }
+}
+
+/* Footer Philosophy*/
+
+/* Philosophy */
+.career-section h1 {
+  padding-top: 70px;
+}
+.footer-philosophy {
+  text-align: center;
+}
+.footer-career {
+  text-align: center;
+}
